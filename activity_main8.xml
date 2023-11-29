@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/img_5"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="Ordering"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv18"
+        android:text="Wool Name"
+        android:layout_marginTop="33dp"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Spinner android:layout_width="149dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="33dp"
+        android:id="@+id/sp3"/>
+
+    <TextView android:id="@+id/tv17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:layout_marginTop="33dp"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text"/>
+
+    <TextView android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Price"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"/>
+
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn111"
+        android:layout_marginTop="33dp"
+        android:text="Submit"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv7" android:text=" "
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"/>
+
+</LinearLayout>
